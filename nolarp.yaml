@@ -81,11 +81,6 @@ tasks:
     dest: ./tmp/addons/rpchat
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_cruisecontrol
-    ref: main
-    dest: ./tmp/addons/esx_cruisecontrol
-
-  - action: download_github
     src: https://github.com/esx-framework/esx_basicneeds
     ref: main
     dest: ./tmp/addons/esx_basicneeds
