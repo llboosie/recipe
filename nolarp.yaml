@@ -43,7 +43,7 @@ tasks:
   - action: download_github
     src: https://github.com/llboosie/ox_lib_rebrand
     ref: main
-    dest: ./tmp/standing/ox_lib
+    dest: ./tmp/core/ox_lib
 
   - action: download_github
     src: https://github.com/llboosie/mod-illenium-appearance
