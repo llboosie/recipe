@@ -43,12 +43,12 @@ tasks:
   - action: download_github
     src: https://github.com/llboosie/ox_lib_rebrand
     ref: main
-    dest: ./tmp/addons/ox_lib
+    dest: ./tmp/standing/ox_lib
 
   - action: download_github
     src: https://github.com/llboosie/mod-illenium-appearance
     ref: main
-    dest: ./tmp/addons/illenium-appearance
+    dest: ./tmp/standing/illenium-appearance
 
   - action: download_github
     src: https://github.com/esx-framework/esx_addoninventory
@@ -220,6 +220,10 @@ tasks:
   - action: move_path
     src: ./tmp/addons/
     dest: ./resources/[esx_addons]
+
+  - action: move_path
+    src: ./tmp/standing/
+    dest: ./resources
 
   - action: download_github
     src: https://github.com/Bob74/bob74_ipl
