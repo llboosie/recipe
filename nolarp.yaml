@@ -51,6 +51,11 @@ tasks:
     dest: ./tmp/standing/illenium-appearance
 
   - action: download_github
+    src: https://github.com/esx-framework/esx_addonaccount
+    ref: main
+    dest: ./tmp/addons/esx_addonaccount
+
+  - action: download_github
     src: https://github.com/esx-framework/esx_addoninventory
     ref: main
     dest: ./tmp/addons/esx_addoninventory
