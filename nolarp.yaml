@@ -100,7 +100,7 @@ tasks:
 
   - action: download_github
     src: https://github.com/ItsikNox/RageUI
-    ref: main
+    ref: master
     dest: ./tmp/standalone/RageUI
 
   - action: download_github
@@ -135,22 +135,12 @@ tasks:
     src: ./tmp/files/esx_hud.zip
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_clotheshop
-    ref: main
-    dest: ./tmp/addons/esx_clotheshop
-
-  - action: download_github
     src: https://github.com/esx-framework/esx_optionalneeds
     ref: main
     dest: ./tmp/addons/esx_optionalneeds
 
   - action: waste_time # prevent github throttling
     seconds: 5
-
-  - action: download_github
-    src: https://github.com/esx-framework/esx_property
-    ref: main
-    dest: ./tmp/addons/esx_property
 
   - action: download_github
     src: https://github.com/esx-framework/esx_dmvschool
@@ -281,8 +271,8 @@ tasks:
     dest: ./resources/[standalone]/screenshot-basic
 
   - action: download_github
-    src: https://github.com/Sh3ldar/tgg-remotetv/tree/main
-    ref: master
+    src: https://github.com/Sh3ldar/tgg-remotetv/
+    ref: main
     dest: ./resources/[standalone]/tgg-remotetv/tgg-remote
 
   - action: download_github
@@ -303,6 +293,13 @@ tasks:
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/K4MB1-StarterShells.zip
+
+  - action: download_file
+    path: ./tmp/files/v2.1.0.zip
+    url: https://github.com/mikigoalie/lsrp_vehicleshop/archive/refs/tags/v2.1.0.zip
+  - action: unzip
+    dest: ./resources/[dealership]
+    src: ./tmp/files/v2.1.0.zip
 
   - action: download_github
     src: https://github.com/najeetpie/nass_carplay
