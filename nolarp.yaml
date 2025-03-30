@@ -288,13 +288,6 @@ tasks:
     src: ./tmp/files/oxmysql.zip
 
   - action: download_file
-    path: ./tmp/files/K4MB1-StarterShells.zip
-    url: https://github.com/llboosie/k4mb1-temp/blob/main/K4MB1-StarterShells.zip
-  - action: unzip
-    dest: ./resources/[standalone]
-    src: ./tmp/files/K4MB1-StarterShells.zip
-
-  - action: download_file
     path: ./tmp/files/v2.1.0.zip
     url: https://github.com/mikigoalie/lsrp_vehicleshop/archive/refs/tags/v2.1.0.zip
   - action: unzip
