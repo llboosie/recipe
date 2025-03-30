@@ -218,7 +218,7 @@ tasks:
 
   - action: move_path
     src: ./tmp/standing/
-    dest: ./resources/
+    dest: ./resources/[nola_addons]
 
   - action: download_github
     src: https://github.com/Bob74/bob74_ipl
