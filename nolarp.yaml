@@ -12,7 +12,7 @@ tasks:
     subpath: resources
     dest: ./resources/[cfx-default]
   - action: remove_path
-    path: ./resources/[cfx-default]/[gameplay]/chat
+    path: ./resources/[cfx-default]/[gameplay]/chayt
   
   # Download and prepare server.cfg / loadingscreen / database
   - action: download_github
