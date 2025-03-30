@@ -90,7 +90,7 @@ tasks:
 
   - action: download_github
     src: https://github.com/snipe-scripts/snipe-queue
-    ref: main
+    ref: master
     dest: ./tmp/queue/snipe-queue
 
   - action: download_github
