@@ -16,8 +16,8 @@ tasks:
   
   # Download and prepare server.cfg / loadingscreen / database
   - action: download_github
-    src: https://github.com/esx-framework/esx-recipes
-    ref: legacy
+    src: https://github.com/llboosie/recipe-2
+    ref: main
     dest: ./tmp/recipe
 
   - action: move_path
@@ -26,7 +26,7 @@ tasks:
 
   - action: move_path
     src: ./tmp/recipe/esxLogo.png
-    dest: ./esxLogo.png
+    dest: ./nolarp1.png
 
   # Download basic resources and ESX dependencies
 
