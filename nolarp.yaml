@@ -168,11 +168,6 @@ tasks:
     dest: ./tmp/addons/esx_garage
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_vehicleshop
-    ref: main
-    dest: ./tmp/addons/esx_vehicleshop
-
-  - action: download_github
     src: https://github.com/esx-framework/esx_joblisting
     ref: main
     dest: ./tmp/addons/esx_joblisting
