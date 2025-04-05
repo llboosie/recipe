@@ -213,7 +213,7 @@ tasks:
   - action: download_github
     src: https://github.com/Arius-Scripts/ars_ambulancejob
     ref: main
-    dest: ./tmp/addons/ars_ambulancejob
+    dest: ./resources/[scripts]/ars_ambulancejob
 
   - action: download_github
     src: https://github.com/esx-framework/esx_mechanicjob
